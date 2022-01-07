@@ -15,7 +15,7 @@ const ProductList = () => {
       return (
         <>
             <hr />
-            <table className="table">
+            <table className="table table-striped">
                 <thead className="thead-dark">
                 <tr>
                     <th scope="col">#</th>
@@ -39,7 +39,7 @@ const ProductList = () => {
                 })}
                 </tbody>
             </table>
-            <Link className="btn btn-info" to="/admin/product/new/">Create a product</Link>
+            <Link className="btn btn-primary" to="/admin/product/new/">Create a product</Link>
         </>
     )
 }

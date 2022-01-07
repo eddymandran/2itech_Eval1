@@ -5,6 +5,7 @@ import ProductList from "./components/admin/ProductList";
 import Cart from "./components/Cart";
 import NotFound from "./components/NotFound";
 import ProductForm from "./components/admin/ProductForm";
+import ProductFormUpdate from "./components/admin/ProductFormUpdate";
 
 function App() {
     return (
@@ -17,7 +18,7 @@ function App() {
                         <Route path='/' element={<Home />}/>
                         <Route path='/admin/product' element={<ProductList />}/>
                         <Route path="/admin/product/new" element={<ProductForm />} />
-                        <Route path="/admin/product/:id/edit" element={<ProductForm />} />
+                        <Route path="/admin/product/:id/edit" element={<ProductFormUpdate />} />
                         <Route path='/cart' element={<Cart />}/>
                         <Route path="*" element={<NotFound />} />
                     </Routes>
