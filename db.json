@@ -1,5 +1,5 @@
 {
-  "dishes": [
+  "product": [
     {
       "id": 1,
       "name": "Cheese pizza",
@@ -14,7 +14,7 @@
     },
     {
       "id": 3,
-      "name": "pineapple pizza",
+      "name": "Pineapple pizza",
       "price": 15,
       "stock": 0
     }

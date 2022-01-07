@@ -11,7 +11,7 @@ const NavBar = () => {
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link" to="/admin/dishe">Admin Dishe</Link>
+                        <Link className="nav-link" to="/admin/product">Admin product</Link>
                     </li>
                 </ul>
                 <ul className="navbar-nav d-flex">
