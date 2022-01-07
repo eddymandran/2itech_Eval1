@@ -8,6 +8,7 @@ import ProductForm from "./components/admin/ProductForm";
 import ProductFormUpdate from "./components/admin/ProductFormUpdate";
 import CartContextProvider from "./contexts/CartContextProvider";
 import { ToastProvider } from 'react-toast-notifications';
+import MyOrder from "./components/MyOrder";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                         <Route path="/admin/product/new" element={<ProductForm />} />
                         <Route path="/admin/product/:id/edit" element={<ProductFormUpdate />} />
                         <Route path='/cart' element={<Cart />}/>
+                        <Route path='/myorder' element={<MyOrder />}/>
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                 </div>

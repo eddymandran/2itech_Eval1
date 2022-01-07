@@ -127,6 +127,36 @@
       ],
       "total": 5,
       "id": 5
+    },
+    {
+      "cart": [
+        {
+          "id": 4,
+          "name": "water",
+          "price": "1",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "bagel",
+          "price": "4",
+          "quantity": 1
+        }
+      ],
+      "total": 5,
+      "id": 6
+    },
+    {
+      "cart": [
+        {
+          "id": 1,
+          "name": "Cheese pizza",
+          "price": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 5,
+      "id": 7
     }
   ]
 }
