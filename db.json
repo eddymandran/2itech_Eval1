@@ -3,29 +3,54 @@
     {
       "id": 1,
       "name": "Cheese pizza",
+      "picture_1":"https://img.cuisineaz.com/660x660/2016/05/13/i87680-pizza-quatre-fromages.jpg",
+      "picture_2":"https://img.cuisineaz.com/660x660/2016/06/30/i95078-pizza-4-fromages.jpg",
+      "picture_3":"https://img-3.journaldesfemmes.fr/dUI8g-HHiBMw37c1ganj9Vr-F-8=/800x600/smart/fb9eb9bdd77e4fa88e100e5e526938df/recipe-jdf/353747.jpg",
+      "picture_4":"https://www.cookomix.com/wp-content/uploads/2019/02/pizza-4-fromages-thermomix-800x600.jpg",
+      "picture_5":"",
       "price": 5,
       "stock": "8"
     },
     {
       "id": 2,
       "name": "Burger",
+      "picture_1":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "picture_2":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "picture_3":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "picture_4":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "picture_5":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
       "price": "8",
       "stock": 3
     },
     {
       "id": 3,
       "name": "Pineapple pizza",
+      "picture_1":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "picture_2":"",
+      "picture_3":"",
+      "picture_4":"",
+      "picture_5":"",
       "price": 15,
       "stock": "0"
     },
     {
       "name": "water",
+      "picture_1":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "picture_2":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "picture_3":"",
+      "picture_4":"",
+      "picture_5":"",
       "price": "1",
       "stock": "100",
       "id": 4
     },
     {
       "name": "bagel",
+      "picture_1":"https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "picture_2":"",
+      "picture_3":"",
+      "picture_4":"",
+      "picture_5":"",
       "price": "4",
       "stock": "27",
       "id": 5

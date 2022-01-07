@@ -15,7 +15,6 @@ const Card = ({product}) => {
                 <h5 className="card-title">{product.name}</h5>
                 <p className="card-text">{product.price} €</p>
                 {product.stock > 0 && <button className="btn btn-success" onClick={ () => addToCart(product)}>Buy me </button>}
-
             </div>
         </div>
     );
