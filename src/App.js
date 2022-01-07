@@ -6,12 +6,16 @@ import Cart from "./components/Cart";
 import NotFound from "./components/NotFound";
 import ProductForm from "./components/admin/ProductForm";
 import ProductFormUpdate from "./components/admin/ProductFormUpdate";
+import CartContextProvider from "./contexts/CartContextProvider";
+import { ToastProvider } from 'react-toast-notifications';
 
 function App() {
     return (
         <>
-            <NavBar/>
+        <ToastProvider placement="top-right">
+            <CartContextProvider>
 
+            <NavBar/>
             <div className="container">
                 <div className="row">
                     <Routes>
@@ -24,6 +28,9 @@ function App() {
                     </Routes>
                 </div>
             </div>
+
+            </CartContextProvider>
+        </ToastProvider>
         </>
     );
 }

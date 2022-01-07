@@ -1,8 +1,11 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import Card from "./Card";
+
 
 const Home = () => {
   const [products, setProducts] = useState([]);
+
+
 
   useEffect(() => {
     fetch("http://localhost:5050/product")
@@ -15,9 +18,8 @@ const Home = () => {
     return (
       <Card
         key={index}
-        title={product.name}
-        price={product.price}
-        stock={product.stock}
+        product={product}
+
       />
     );
   });

@@ -9,21 +9,124 @@
     {
       "id": 2,
       "name": "Burger",
-      "price": 8,
+      "price": "8",
       "stock": 3
     },
     {
       "id": 3,
       "name": "Pineapple pizza",
       "price": 15,
-      "stock": 0
+      "stock": "0"
     },
     {
       "name": "water",
-      "price": "1,50",
+      "price": "1",
       "stock": "100",
       "id": 4
+    },
+    {
+      "name": "bagel",
+      "price": "4",
+      "stock": "27",
+      "id": 5
     }
   ],
-  "order": []
+  "order": [
+    {
+      "cart": [
+        {
+          "id": 1,
+          "name": "Cheese pizza",
+          "price": 5,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "water",
+          "price": "1",
+          "quantity": 4
+        },
+        {
+          "id": 2,
+          "name": "Burger",
+          "price": "8",
+          "quantity": 2
+        }
+      ],
+      "total": 25,
+      "id": 1
+    },
+    {
+      "cart": [
+        {
+          "id": 1,
+          "name": "Cheese pizza",
+          "price": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 5,
+      "id": 2
+    },
+    {
+      "cart": [
+        {
+          "id": 1,
+          "name": "Cheese pizza",
+          "price": 5,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "Pineapple pizza",
+          "price": 15,
+          "quantity": 1
+        }
+      ],
+      "total": 20,
+      "id": 3
+    },
+    {
+      "cart": [
+        {
+          "id": 1,
+          "name": "Cheese pizza",
+          "price": 5,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Burger",
+          "price": "8",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "water",
+          "price": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 14,
+      "id": 4
+    },
+    {
+      "cart": [
+        {
+          "id": 5,
+          "name": "bagel",
+          "price": "4",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "water",
+          "price": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 5,
+      "id": 5
+    }
+  ]
 }
