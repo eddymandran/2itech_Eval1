@@ -17,8 +17,13 @@
       "name": "Pineapple pizza",
       "price": 15,
       "stock": 0
+    },
+    {
+      "name": "water",
+      "price": "1",
+      "stock": "100",
+      "id": 4
     }
   ],
-  "order": [
-  ]
+  "order": []
 }

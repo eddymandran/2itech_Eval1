@@ -39,6 +39,7 @@ const ProductList = () => {
                 })}
                 </tbody>
             </table>
+            <Link className="btn btn-info" to="/admin/product/new/">Create a product</Link>
         </>
     )
 }
