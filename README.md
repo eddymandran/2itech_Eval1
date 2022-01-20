@@ -44,12 +44,6 @@ npm run start
 npm run backend
 ```
 
-## Run tests
-
-```sh
-npm run test
-```
-
 ## Author
 
 👤 **Eddy MANDRAN**
